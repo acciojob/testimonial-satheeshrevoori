@@ -1,32 +1,24 @@
-/*  your css code here. If applicable */
 #main {
-
-	background-color:whitesmoke;
-      height: auto;
-	border:none;
-	box-shadow:salmon;
-	padding:15px;
+    background-color: whitesmoke;
+    height: auto;
+    border: none;
+    box-shadow: 2px 2px 5px salmon;
+    padding: 15px;
 }
-#para1 {
-	background-color:white;
-	padding:5px;
-	text-align:justify;
-	position:relative;
+#para1, #para2 {
+    background-color: white;
+    padding: 5px;
+    text-align: justify;
+    position: relative;
 }
 .author::before {
-  content: "-";
+    content: "-";
 }
-.author{
-	position:absolute;
-    right:10px;
-	bottom:2px;
+.author {
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
 }
-#para2 {
-	background-color:white;
-	padding:5px;
-	text-align:justify;
-	position:relative;
-}
-p{
-	padding:10px;
+p {
+    padding: 10px;
 }
