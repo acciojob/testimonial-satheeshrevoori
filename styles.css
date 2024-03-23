@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+#main {
+
+	background-color:whitesmoke;
+      height: auto;
+	border:none;
+	box-shadow:salmon;
+	padding:15px;
+}
+#para1 {
+	background-color:white;
+	padding:5px;
+	text-align:justify;
+	position:relative;
+}
+.author::before {
+  content: "-";
+}
+.author{
+	position:absolute;
+    right:10px;
+	bottom:2px;
+}
+#para2 {
+	background-color:white;
+	padding:5px;
+	text-align:justify;
+	position:relative;
+}
+p{
+	padding:10px;
+}
